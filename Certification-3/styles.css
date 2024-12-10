@@ -65,6 +65,11 @@ header {
   margin-right: 40px;
 }
 
+.navbar a:hover {
+  color: #000000;
+  border-bottom: 2px solid #000000;
+}
+
 @media (max-width: 794px) {
   nav {
     width: 100%;
@@ -112,6 +117,11 @@ header {
   border: none;
   background-color: darkorange;
   color: #000000;
+}
+
+#hero input[type="submit"]:hover {
+  background: rgb(247, 208, 83);
+  transition: 1s; 
 }
 
 form .btn {
